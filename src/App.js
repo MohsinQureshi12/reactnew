@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 import Porject from './components/Porject';
 import { Routes,Route } from 'react-router';
 
-
+import Signup from './Componentss/Signup';
 
 
 
@@ -27,6 +27,7 @@ function App() {
     
     <Routes>
 <Route path="/" element={<Home/>}/>
+<Route path="/signup" element={<Signup />} />
 <Route path="/project" element={<Porject/>}/>
 <Route path="/about" element={<About/>}/>
 <Route path="/contact" element={<Contact/>}/>
